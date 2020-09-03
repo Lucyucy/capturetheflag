@@ -245,6 +245,9 @@ crafting.register_recipe({
 	level  = 1,
 })
 
+-- Remove Diamond axes and shovels
+full_ores.diamond = nil
+
 -- Shovels
 for ore, ore_item in pairs(full_ores) do
 	crafting.register_recipe({
